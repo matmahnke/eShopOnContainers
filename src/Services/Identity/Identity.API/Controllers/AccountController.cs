@@ -27,7 +27,6 @@ namespace Microsoft.eShopOnContainers.Services.Identity.API.Controllers
     /// </summary>
     public class AccountController : Controller
     {
-        //private readonly InMemoryUserLoginService _loginService;
         private readonly ILoginService<ApplicationUser> _loginService;
         private readonly IIdentityServerInteractionService _interaction;
         private readonly IClientStore _clientStore;
